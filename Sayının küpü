@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void) {
+  int a, sonuc;
+        printf("give a number");
+        scanf("%d", &a);
+  sonuc = a*a*a;
+        printf("%d",sonuc);
+  return 0;
+}
