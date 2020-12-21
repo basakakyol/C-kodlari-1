@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+int a =5, b =8,sonuc;
+ sonuc = a + b-- -a + a++ - --b;
+  printf("%d,%d,%d",a,b,sonuc);
+
+
+return 0 ;
+}
