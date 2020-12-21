@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+  int saat,tutar;
+       printf("saat\n");
+       scanf("%d",&saat);
+  if(saat<=4){
+    tutar=saat * 10;
+       printf("%d",tutar);
+  }
+  else if(saat>4 && saat<=8){
+     tutar=40+(saat-4)*12;
+       printf("%d",tutar);
+  }
+  else if(saat>8 && saat<=12){
+     tutar=88+(saat-8)*15;
+       printf("%d",tutar);
+  }
+  else if (saat> 12){
+     tutar=148+(saat-12)*20;
+       printf("%d",tutar);
+  }
+    return 0;
+}
